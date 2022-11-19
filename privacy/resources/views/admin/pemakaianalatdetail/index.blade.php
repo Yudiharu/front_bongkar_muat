@@ -117,9 +117,13 @@
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <div class="form-group">
+                        <div class="form-group-jm">
                             {{ Form::label('Jams', 'Jam Breakdown:') }}
                             {{ Form::time('jam_breakdown', null,['class'=> 'form-control','id'=>'JamBr1'])}}
+                        </div>
+                        <div class="form-group-hm">
+                            {{ Form::label('Jams', 'HM Breakdown:') }}
+                            {{ Form::text('hm_breakdown', null,['class'=> 'form-control','id'=>'HmBr1','onkeypress'=>"return hanyaAngka(event)"])}}
                         </div>
                     </div>
                     <div class="col-md-12"></div>
@@ -489,6 +493,8 @@
             $('.hapus-button').hide();
             $('.edit-button').hide();
             $('.view-button').hide();
+            $('.form-group-hm').hide();
+            $('.form-group-jm').hide();
             document.getElementById("HmDr1").readOnly = true;
             document.getElementById("HmSp1").readOnly = true;
             document.getElementById("JamDr1").readOnly = true;
@@ -576,6 +582,10 @@
                 document.getElementById("JamSp1").readOnly = false;
                 document.getElementById("Istirahat1").readOnly = false;
                 document.getElementById("StandBy1").readOnly = false;
+                $('#JamBr1').val('');
+                $('#HmBr1').val(0);
+                $('.form-group-hm').hide();
+                $('.form-group-jm').show();
             }else if (hitung == '2') {
                 $('#JamDr1').val('');
                 $('#JamSp1').val('');
@@ -587,6 +597,10 @@
                 document.getElementById("JamSp1").readOnly = true;
                 document.getElementById("Istirahat1").readOnly = true;
                 document.getElementById("StandBy1").readOnly = true;
+                $('#JamBr1').val('');
+                $('#HmBr1').val(0);
+                $('.form-group-hm').show();
+                $('.form-group-jm').hide();
             }else {
                 $('#JamDr1').val('');
                 $('#JamSp1').val('');
@@ -598,6 +612,10 @@
                 document.getElementById("JamSp1").readOnly = true;
                 document.getElementById("Istirahat1").readOnly = true;
                 document.getElementById("StandBy1").readOnly = true;
+                $('#JamBr1').val('');
+                $('#HmBr1').val(0);
+                $('.form-group-hm').hide();
+                $('.form-group-jm').hide();
             }
         }
 

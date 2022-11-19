@@ -27,6 +27,7 @@ class PemakaianAlatDetail extends Model
         'tgl_pakai',
         'hari_libur',
         'jam_breakdown',
+        'hm_breakdown',
         'jam_dr',
         'jam_sp',
         'istirahat',

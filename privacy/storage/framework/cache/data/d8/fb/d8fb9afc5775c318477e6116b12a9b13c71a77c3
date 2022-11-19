@@ -1,0 +1,1 @@
+1663382780a:1:{i:0;a:7:{s:2:"id";i:19;s:4:"name";s:11:"user_imelda";s:12:"display_name";s:11:"User Imelda";s:11:"description";s:11:"User Imelda";s:10:"created_at";s:19:"2022-03-17 14:08:16";s:10:"updated_at";s:19:"2022-03-17 14:08:16";s:5:"pivot";a:3:{s:7:"user_id";i:8;s:7:"role_id";i:19;s:9:"user_type";s:8:"App\User";}}}

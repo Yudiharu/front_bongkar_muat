@@ -1,0 +1,1 @@
+1663403262a:1:{i:0;a:7:{s:2:"id";i:16;s:4:"name";s:11:"user_juvita";s:12:"display_name";s:6:"Juvita";s:11:"description";s:11:"User Juvita";s:10:"created_at";s:19:"2022-03-17 13:44:21";s:10:"updated_at";s:19:"2022-03-17 13:44:21";s:5:"pivot";a:3:{s:7:"user_id";i:4;s:7:"role_id";i:16;s:9:"user_type";s:8:"App\User";}}}

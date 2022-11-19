@@ -1,0 +1,1 @@
+1663231526a:1:{i:0;a:7:{s:2:"id";i:24;s:4:"name";s:12:"user_sriyuni";s:12:"display_name";s:7:"Sriyuni";s:11:"description";s:7:"sriyuni";s:10:"created_at";s:19:"2022-07-04 09:07:51";s:10:"updated_at";s:19:"2022-07-04 09:07:51";s:5:"pivot";a:3:{s:7:"user_id";i:13;s:7:"role_id";i:24;s:9:"user_type";s:8:"App\User";}}}
